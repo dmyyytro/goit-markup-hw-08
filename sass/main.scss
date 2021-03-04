@@ -1,0 +1,25 @@
+/* UTILS */
+@import "./utils/variables";
+
+/* BASE */
+@import "./base/base.scss";
+@import "./base/container";
+
+/* COMPONENTS */
+@import "./components/modal-button";
+@import "./components/backdrop";
+@import "./components/logo";
+@import "./components/projects";
+@import "./components/modal-window";
+@import "./components/background-color";
+@import "./components/filters";
+@import "./components/customers";
+@import "./components/advantages";
+@import "./components/services";
+@import "./components/team";
+
+/* LAYOUT */
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/footer";
+@import "./layout/navigation";

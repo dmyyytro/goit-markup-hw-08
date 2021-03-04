@@ -1,0 +1,57 @@
+.header {
+  border: 1px solid #ececec;
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.studio {
+  margin-right: 90px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contacts-list-item {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  fill: var(--text-color);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.tel-icon {
+  width: 10px;
+  height: 16px;
+  fill: var(--text-color);
+  margin-right: 10px;
+  cursor: pointer;
+}
